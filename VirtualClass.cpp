@@ -14,8 +14,7 @@ using std::endl;
 
 int main(int argc, char** argv)
 {
-	Product* p = new Product("Shoes", PAIR, 5);
-
-
-
+	ForSale* p = new Footwear("Shoes", 44, MEN, 5);
+	p->set_price(1000, 0);
+	p->sell(5);
 }
